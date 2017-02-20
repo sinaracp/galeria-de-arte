@@ -1,0 +1,98 @@
+/*
+Theme Name: Atelier Vivendo com Arte
+Theme URI: https://wordpress.org/themes/theme_atelier/
+Author: Sinara Castellem
+Author URI: http://www.sinaracastellem.com/
+Description: Tema desenvolvido para Atelier Viver com Arte em 2017, responsivo para todas as mídeas.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, arte, galeria, turismo, viagem
+Text Domain: ateliervivercomarte
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* header */
+.my-navbar {
+    background: #f1dcaa;
+    color: black;
+}
+/* Imagem principal */
+.img-header {
+    padding-top: 5%;
+    background-attachment: fixed;
+}
+/* caroussel principal */
+.caroussel-principal {
+    padding-top: 3%;
+}
+/* Últimos posts*/
+.title-line h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+    line-height: 0.1em;
+    margin: 20px 0 0;
+    padding-top: 3%;
+
+    color: #b1afae;   
+}
+.title-line h3 span {
+    background: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;  
+    color: #6f6e6d;
+}
+.ultimos-posts {
+    padding-top: 8%;
+}
+.ultimos-posts h3{
+    font-size: 18px;
+}
+
+/*section right*/
+.section-right{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.section-right h3 {
+    background: #f1dcaa;
+    text-align: center;
+    text-transform: uppercase;
+    color: dimgrey;
+    padding: 3%;
+}
+.section-right h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: block;
+    position: relative;
+    letter-spacing: 1px;
+}
+.section-right p {
+    text-align: justify;
+    font-size: 14px;
+}
+.section-right i {
+    color: #f1dcaa;
+}
+.footer a {
+    color: dimgrey;
+}
+.footer i {
+    color: dimgrey;
+    padding-top: 30px;
+}
+.footer {
+    background: #f1dcaa;
+}
+.img-center {
+    padding: 20px;
+}
